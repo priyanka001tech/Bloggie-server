@@ -1,0 +1,21 @@
+.mess {
+    font-size:18px;
+    font: inherit;
+    color: black;
+    width: 100%;
+    border-color:rgb(189, 185, 185);
+    border-radius:5px;
+    height: 1.1876em;
+    display: block;
+    padding: 7px;
+    min-width: 0;
+    box-sizing: content-box;
+    font-family:system-ui;
+    margin:10px;
+    
+}
+.mess:focus{
+    outline: none !important;
+    border:2px solid rgb(63, 24, 238);
+}
+

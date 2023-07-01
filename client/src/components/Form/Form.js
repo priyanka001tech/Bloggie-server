@@ -56,7 +56,7 @@ const Form = ({ currentId, setCurrentId }) => {
                 onChange={(e) => setPostData({ ...postData, creator: e.target.value })}/> */}
                 <TextField  name="title" variant="outlined" label="Title" fullWidth value={postData.title} 
                 onChange={(e) => setPostData({ ...postData, title: e.target.value })}/>
-                <TextareaAutosize className="mess" name="message" variant="outlined" label="Message" fullWidth value={postData.message} placeholder="Message" style={{ width: 320 }} minRows={8}
+                <TextareaAutosize className="mess" name="message" variant="outlined" label="Message" fullWidth value={postData.message} placeholder="Message" style={{ width: 400 }} minRows={8}
                 onChange={(e) => setPostData({ ...postData, message: e.target.value })}/>
                 {/* <TextField  name="message" variant="outlined" label="Message" fullWidth value={postData.message} 
                 onChange={(e) => setPostData({ ...postData, message: e.target.value })}/> */}
